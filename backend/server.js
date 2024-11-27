@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 5000; 
-rm -rf frontend/src/tests
+const PORT = 5001; 
 
 // Middleware for JSON parsing
 app.use(express.json());
